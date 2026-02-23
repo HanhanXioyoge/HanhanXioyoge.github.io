@@ -7,7 +7,7 @@ excerpt: 'UniESA is a unified, data-driven computational framework designed to p
 date: 2025-05-18
 venue: 'Green Chemistry'
 # slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://academicpages.github.io/files/paper1.pdf'
+paperurl: 'https://pubs.rsc.org/en/Content/ArticleLanding/2025/GC/D4GC06253A'
 # bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
 # citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
