@@ -1,8 +1,8 @@
 ---
 permalink: /
-title: "欢迎来到我的个人主页
+title: "欢迎来到我的个人主页"
 
-你好！欢迎来到我的个人网站👋"
+"你好！欢迎来到我的个人网站👋"
 author_profile: true
 redirect_from: 
   - /about/
