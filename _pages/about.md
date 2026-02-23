@@ -23,3 +23,10 @@ redirect_from:
   + **2023年-至今**-浙江工业大学生物工程专业就读
   + **2018年-2022年**-西南大学动物科学专业就读
 
+## 🛠️ 技术栈 (Technical Skills)
+
+| 领域 (Category) | 掌握技能 (Proficiencies) |
+| :--- | :--- |
+| **编程语言 (Languages)** | Python, MATLAB, R, Markdown |
+| **框架与工具 (Frameworks & Tools)** | PyTorch, Claude Code, Git, Docker, PyCharm, VS Code |
+| **系统环境 (Environments)** | Linux, Windows |
