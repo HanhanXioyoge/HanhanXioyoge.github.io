@@ -17,10 +17,10 @@ redirect_from:
 
 我的研究致力于打破传统生物学的“经验试错”范式，通过“底层代谢系统建模 + 前沿AI大规模预测”的双引擎，加速生命科学的数据化解析与工业转化。目前主要聚焦于以下交叉方向：
 
-* **AI for Science 与蛋白质工程 (AI-Driven Protein Engineering):** 基于蛋白质大语言模型（如 ESM-2）与深度神经网络，开发高精度的蛋白质热稳定性 ($T_m$) 及酶动力学参数预测系统。
-* **酶约束代谢建模与系统仿真 (Metabolic Modeling & Systems Biology):** 基于 ECOMAP 框架构建底盘细胞（大肠杆菌、酿酒酵母等）的高精度 ecGEMs，并执行通量平衡分析（FBA）。
-* **多组学数据的高维解析与融合 (Multi-omics Data Integration):** Label-free 蛋白质组学数据的严谨绝对定量转换，及其在复杂代谢网络中的精准映射与校准。
-
+* **AI for Science 与蛋白质工程 (AI-Driven Protein Engineering)**
+* **酶约束代谢建模与系统仿真 (Metabolic Modeling & Systems Biology)**
+* **多组学数据的高维解析与融合 (Multi-omics Data Integration)**
+* 
 ## 🎓 教育背景 (Education)
 
 * **硕士 (M.Eng.)** in 生物工程, [浙江工业大学](https://www.zjut.edu.cn/), *2023.09 - 2026.06 (Expected)*
