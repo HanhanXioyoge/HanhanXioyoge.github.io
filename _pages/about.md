@@ -1,6 +1,7 @@
 ---
 permalink: /
 title: "欢迎来到我的个人主页
+
 你好！欢迎来到我的个人网站👋"
 author_profile: true
 redirect_from: 
@@ -8,7 +9,8 @@ redirect_from:
   - /about.html
 ---
 
-我是陈麒麟，[浙江工业大学](https://www.zjut.edu.cn/)生物工程专业的26年硕士毕业生。我是陈麒麟（Qilin Chen）。一名专注于 AI for Science 与计算生物学领域的独立开发者与研究者。
+我是陈麒麟（Qilin Chen），[浙江工业大学](https://www.zjut.edu.cn/)生物工程专业的26年硕士毕业生，一名专注于 AI for Science 与计算生物学领域的独立开发者与研究者。
+
 我致力于在生命科学底层的复杂多组学数据与前沿的人工智能算法之间搭建桥梁。我的核心技术逻辑是：用系统建模解析生命的代谢底座，用深度学习预测大分子的未知边界。
 
 研究领域：
