@@ -3,7 +3,7 @@ title: "UniESA: a unified data-driven framework for enzyme stereoselectivity and
 collection: publications
 category: manuscripts
 permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+excerpt: 'UniESA is a unified, data-driven computational framework designed to predict the stereoselectivity and catalytic activity of enzymes. It is utilized in protein engineering to optimize biocatalysts and accelerate discoveries for sustainable green chemistry applications.'
 date: 2025-05-18
 venue: 'Green Chemistry'
 slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
