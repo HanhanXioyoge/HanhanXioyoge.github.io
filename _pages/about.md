@@ -1,20 +1,22 @@
 ---
 permalink: /
 title: "欢迎来到我的个人主页
-你好！欢迎来到我的个人网站"
+你好！欢迎来到我的个人网站👋"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+我是陈麒麟，[浙江工业大学](https://www.zjut.edu.cn/)生物工程专业的26年硕士毕业生。我是陈麒麟（Qilin Chen）。一名专注于 AI for Science 与计算生物学领域的独立开发者与研究者。
+我致力于在生命科学底层的复杂多组学数据与前沿的人工智能算法之间搭建桥梁。我的核心技术逻辑是：用系统建模解析生命的代谢底座，用深度学习预测大分子的未知边界。
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
-
-A data-driven personal website
+研究领域：
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+我的研究致力于打破传统生物学的“经验试错”范式。通过“底层代谢系统建模 + 前沿 AI 大规模预测”的双引擎，加速生命科学的数据化解析与工业转化。目前，我主要聚焦于以下三个核心维度的交叉探索：
+  + AI-Driven Protein Engineering
+  + 酶约束代谢建模与系统仿真
+  + 多组学数据的高维解析与网络融合
 
 Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
 
