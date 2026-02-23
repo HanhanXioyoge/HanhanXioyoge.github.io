@@ -20,7 +20,7 @@ redirect_from:
 * **AI for Science 与蛋白质工程 (AI-Driven Protein Engineering)**
 * **酶约束代谢建模与系统仿真 (Metabolic Modeling & Systems Biology)**
 * **多组学数据的高维解析与融合 (Multi-omics Data Integration)**
-* 
+
 ## 🎓 教育背景 (Education)
 
 * **硕士 (M.Eng.)** in 生物工程, [浙江工业大学](https://www.zjut.edu.cn/), *2023.09 - 2026.06 (Expected)*
