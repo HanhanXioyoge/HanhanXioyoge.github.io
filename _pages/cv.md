@@ -14,54 +14,22 @@ Education
 * M.S. in Bioengineering, Zhejiang University of Technology, 2026 (expected)
 * B.S. in Animal Science, Southwest University, 2022
 
-``
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-``
-
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* 生物信息与代谢建模
+  * 蛋白组学分析
+  * 基因组规模代谢模型（GEM）建模与模拟
+  * 酶约束代谢模型（ecGEMs）构建
+* 编程语言
+  * python
+  * Matlab
+  * R
+* AI工具
+  * Claude code + minimax
+  * Agent skills
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-``
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
-``
