@@ -33,7 +33,7 @@ tags:
 
 **操作步骤：**
 1. 前往 [Node.js 官方网站](https://nodejs.org/)。
-   ![alt text](image.png)
+   ![alt text](/images/blog/2026-02-25-install-claude-code-on-your-windows/image.png)
 2. 下载推荐给大多数用户的 **LTS（长期支持版）** Windows 安装包。
 3. 双击运行，**一路点击“Next”即可**（默认设置已经足够，不需要修改路径或勾选额外的高级选项）。
 
@@ -48,11 +48,11 @@ tags:
 
 1. **唤醒终端**：按下 `Win` 键，搜索并打开 **PowerShell**。建议右键点击选择“以管理员身份运行”，这样可以最大程度避免后续执行过程中的系统权限拦截。
 2. **执行安装命令**：将官方提供的以下命令复制、粘贴到你的 PowerShell 窗口中，然后按下回车键：
-![alt text](image-1.png)
+![alt text](/images/blog/2026-02-25-install-claude-code-on-your-windows/image-1.png)
 
-```powershell
-irm https://claude.ai/install.ps1 | iex
-```
+    ```powershell
+    irm https://claude.ai/install.ps1 | iex
+    ```
 
 第三步：配置环境变量 —— 让系统“认识” Claude 命令
 ======
@@ -64,10 +64,10 @@ irm https://claude.ai/install.ps1 | iex
 **详细配置步骤：**
 
 1. **查看claude的路径**：claude路径（通常类位于 C:\Users\\<你的用户名>\\.local\bin）。请用鼠标选中并右键复制这串路径。
-![alt text](image-2.png)
+![alt text](/images/blog/2026-02-25-install-claude-code-on-your-windows/image-2.png)
 
 2. **进入 Windows 环境变量设置**：按下键盘上的 Win 键，直接输入搜索词 “环境变量”，点击 “编辑系统环境变量”，在弹出的“系统属性”窗口右下角，点击 “环境变量(N)...” 按钮。在弹出的窗口中，找到上半部分“用户变量”列表里的 Path 选项，双击打开它。点击右侧的 “新建” 按钮。将刚才复制的claude路径粘贴进去。依次点击所有打开窗口的 “确定” 按钮，保存设置并退出。
-![alt text](image-3.png)
+![alt text](/images/blog/2026-02-25-install-claude-code-on-your-windows/image-3.png)
 3. **重启终端并验证（关键！）**：环境变量修改后，不会在当前已经打开的终端中立即生效。请务必关闭当前的 PowerShell 窗口。重新打开一个全新的 PowerShell 窗口，输入以下命令进行验证：
     ```PowerShell
     claude --version
@@ -99,25 +99,25 @@ irm https://claude.ai/install.ps1 | iex
 目前社区中最成熟的方案是使用带图形化界面（GUI）的 `cc-switch` 桌面端。
    * 前往开源仓库 `farion1231/cc-switch` 的 [GitHub Releases 页面](https://github.com/farion1231/cc-switch/releases)。
    * 找到最新的 Windows 版本（安装包）下载并完成安装。
-![alt text](image-5.png)
+![alt text](/images/blog/2026-02-25-install-claude-code-on-your-windows/image-5.png)
 
 3. **配置自定义 Provider（模型供应商）**
 打开 `cc-switch` 软件，我们需要告诉它“该把数据转发给谁”：
    * 点击右上角加号添加新的 **Provider**。
    * 去对应的大模型官网获取对应的API key填充到下面。（以minmax为例）
-![alt text](image-4.png)
+![alt text](/images/blog/2026-02-25-install-claude-code-on-your-windows/image-4.png)
 
 4. **见证奇迹的时刻**
 现在，回到你的 PowerShell 终端，使用 `cd` 命令进入你想要编写代码的项目文件夹，然后自信地敲下：
     ```powershell
     claude
     ```
-    ![alt text](image-6.png)
+    ![alt text](/images/blog/2026-02-25-install-claude-code-on-your-windows/image-6.png)
     然后输入选择模型
     ```
     /model
     ```
-    ![alt text](image-7.png)
+    ![alt text](/images/blog/2026-02-25-install-claude-code-on-your-windows/image-7.png)
 
 
 就这样我们完成了 Claude Code 的彻底部署与自定义接管！
