@@ -64,8 +64,7 @@ tags:
 **详细配置步骤：**
 
 1. **查看claude的路径**：claude路径（通常类位于 C:\Users\\<你的用户名>\\.local\bin）。请用鼠标选中并右键复制这串路径。
-![alt text](/images/blog/2026-02-25-install-claude-code-on-your-windows/image-2.png)
-
+   ![alt text](/images/blog/2026-02-25-install-claude-code-on-your-windows/image-2.png)
 2. **进入 Windows 环境变量设置**：按下键盘上的 Win 键，直接输入搜索词 “环境变量”，点击 “编辑系统环境变量”，在弹出的“系统属性”窗口右下角，点击 “环境变量(N)...” 按钮。在弹出的窗口中，找到上半部分“用户变量”列表里的 Path 选项，双击打开它。点击右侧的 “新建” 按钮。将刚才复制的claude路径粘贴进去。依次点击所有打开窗口的 “确定” 按钮，保存设置并退出。
 ![alt text](/images/blog/2026-02-25-install-claude-code-on-your-windows/image-3.png)
 3. **重启终端并验证（关键！）**：环境变量修改后，不会在当前已经打开的终端中立即生效。请务必关闭当前的 PowerShell 窗口。重新打开一个全新的 PowerShell 窗口，输入以下命令进行验证：
