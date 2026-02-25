@@ -63,15 +63,18 @@ tags:
 
 **详细配置步骤：**
 
-1. **查看claude的路径**：claude路径（通常类位于 C:\Users\\<你的用户名>\\.local\bin）。请用鼠标选中并右键复制这串路径。
-   ![alt text](/images/blog/2026-02-25-install-claude-code-on-your-windows/image-2.png)
+1. **查看 claude 的路径**：claude 路径通常位于 `C:\Users\<你的用户名>\.local\bin`。请用鼠标选中并右键复制这串路径。
+
+    ![alt text](/images/blog/2026-02-25-install-claude-code-on-your-windows/image-2.png)
 2. **进入 Windows 环境变量设置**：按下键盘上的 Win 键，直接输入搜索词 “环境变量”，点击 “编辑系统环境变量”，在弹出的“系统属性”窗口右下角，点击 “环境变量(N)...” 按钮。在弹出的窗口中，找到上半部分“用户变量”列表里的 Path 选项，双击打开它。点击右侧的 “新建” 按钮。将刚才复制的claude路径粘贴进去。依次点击所有打开窗口的 “确定” 按钮，保存设置并退出。
 ![alt text](/images/blog/2026-02-25-install-claude-code-on-your-windows/image-3.png)
 3. **重启终端并验证（关键！）**：环境变量修改后，不会在当前已经打开的终端中立即生效。请务必关闭当前的 PowerShell 窗口。重新打开一个全新的 PowerShell 窗口，输入以下命令进行验证：
-    ```PowerShell
+
+    ```powershell
     claude --version
     ```
-    如果屏幕上成功输出了 Claude Code 的版本号（例如 @anthropic-ai/claude-code/x.x.x），恭喜你！你的 AI 编程助手已经被彻底唤醒，随时待命。
+
+    如果屏幕上成功输出了 Claude Code 的版本号（例如 `@anthropic-ai/claude-code/x.x.x`），恭喜你！你的 AI 编程助手已经被彻底唤醒，随时待命。
 
 
 第四步：模型自由 —— 跳过官方登录，使用 `ccswitch` 接入任意大模型
@@ -94,19 +97,19 @@ tags:
     ```
     保存并重启 CLI 保存文件后重新启动 Claude Code CLI，即可跳过登录流程。
 
-2. **获取 `cc-switch` 客户端**
+1. **获取 `cc-switch` 客户端**
 目前社区中最成熟的方案是使用带图形化界面（GUI）的 `cc-switch` 桌面端。
    * 前往开源仓库 `farion1231/cc-switch` 的 [GitHub Releases 页面](https://github.com/farion1231/cc-switch/releases)。
    * 找到最新的 Windows 版本（安装包）下载并完成安装。
 ![alt text](/images/blog/2026-02-25-install-claude-code-on-your-windows/image-5.png)
 
-3. **配置自定义 Provider（模型供应商）**
+1. **配置自定义 Provider（模型供应商）**
 打开 `cc-switch` 软件，我们需要告诉它“该把数据转发给谁”：
    * 点击右上角加号添加新的 **Provider**。
    * 去对应的大模型官网获取对应的API key填充到下面。（以minmax为例）
 ![alt text](/images/blog/2026-02-25-install-claude-code-on-your-windows/image-4.png)
 
-4. **见证奇迹的时刻**
+1. **见证奇迹的时刻**
 现在，回到你的 PowerShell 终端，使用 `cd` 命令进入你想要编写代码的项目文件夹，然后自信地敲下：
     ```powershell
     claude
