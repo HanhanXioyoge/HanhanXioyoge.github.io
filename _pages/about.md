@@ -7,27 +7,27 @@ redirect_from:
   - /about.html
 ---
 
-我是**陈麒麟（Qilin Chen）**，目前是[浙江工业大学](https://www.zjut.edu.cn/)生物工程专业的硕士研究生（预计2026年毕业）。我是一名专注于 **AI for Science** 与**计算生物学**领域的交叉学科研究者与独立开发者。
+欢迎来到我的个人主页！我是**陈麒麟 (Qilin Chen)**，目前在[浙江工业大学](https://www.zjut.edu.cn/)攻读生物工程硕士学位（预计2026年毕业），师从 Hub 教授与 Git 教授。我是一名专注于 **AI for Science** 与**计算生物学**的交叉学科研究者。
 
-我致力于在生命科学底层的复杂多组学数据与前沿的人工智能算法之间搭建桥梁。我的核心技术哲学是：**用系统建模解析生命的代谢底座，用深度学习预测大分子的未知边界。**
+我的研究旨在通过“底层代谢系统建模”与“前沿AI预测”的双引擎，加速生命科学的数据化解析与转化。我目前的工作重点包括利用深度学习预测蛋白质热稳定性 ($T_m$) 等关键属性，以及酶约束代谢模型 (ecGEMs) 的校准与多组学数据整合。
 
-## 🔬 研究领域 (Research Interests)
+## 🔬 研究兴趣 (Research Interests)
 
-我的研究致力于打破传统生物学的“经验试错”范式，通过“底层代谢系统建模 + 前沿AI大规模预测”的双引擎，加速生命科学的数据化解析与工业转化。目前主要聚焦于以下交叉方向：
-
-* **AI for Science 与蛋白质工程 (AI-Driven Protein Engineering)**
-* **酶约束代谢建模与系统仿真 (Metabolic Modeling & Systems Biology)**
-* **多组学数据的高维解析与融合 (Multi-omics Data Integration)**
+* **AI 驱动的蛋白质工程 (AI-Driven Protein Engineering):** 结合蛋白质语言模型 (PLMs) 与几何深度学习，预测大分子属性与酶动力学。
+* **代谢建模与系统生物学 (Metabolic Modeling & Systems Biology):** 酶约束基因组尺度代谢模型 (ecGEMs) 的构建、仿真与高通量通量分析。
+* **多组学数据整合 (Multi-omics Data Integration):** 运用计算生物学方法解析蛋白质组学、转录组学等复杂高维数据。
 
 ## 🎓 教育背景 (Education)
 
-* **硕士 (M.Eng.)** in 生物工程, [浙江工业大学](https://www.zjut.edu.cn/), *2023.09 - 2026.06 (Expected)*
-* **学士 (B.S.)** in 动物科学, [西南大学](http://www.swu.edu.cn/), *2018.09 - 2022.06*
+* **硕士 (M.Eng.) in 生物工程**, [浙江工业大学](https://www.zjut.edu.cn/) | *2023.09 - 2026.06 (Expected)*
+* **学士 (B.S.) in 动物科学**, [西南大学](http://www.swu.edu.cn/) | *2018.09 - 2022.06*
 
 ## 🛠️ 技术栈 (Technical Skills)
 
-| 领域 (Category) | 掌握技能 (Proficiencies) |
-| :--- | :--- |
-| **编程语言 (Languages)** | Python, MATLAB, R, Markdown |
-| **框架与工具 (Frameworks & Tools)** | PyTorch, Claude Code, Git, Docker, PyCharm, VS Code |
-| **系统环境 (Environments)** | Linux, Windows |
+* **编程与分析:** Python, MATLAB, R
+* **AI 与生物计算:** PyTorch, ESM-2, AlphaFold3
+* **开发与部署:** Linux/WSL, Git, Docker, Claude Code
+
+## 📢 最新动态 (Recent News)
+* **[2026.02]** 正在推进基于交叉注意力机制的蛋白质热稳定性预测项目框架搭建。
+* **[2026.01]** 优化了用于 ecGEMs 校准的 ECOMAP 分析工作流与底层代码。
